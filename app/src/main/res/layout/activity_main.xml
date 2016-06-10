@@ -33,8 +33,19 @@
         android:layout_height="wrap_content"
         android:text="Send"
         android:id="@+id/btnSend"
-        android:layout_below="@+id/etvSend"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/printMsg"
+        android:layout_toStartOf="@+id/printMsg"
+        android:layout_marginBottom="46dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:id="@+id/btnScan"
+        android:layout_alignTop="@+id/btnSend"
+        android:layout_toRightOf="@+id/printMsg"
+        android:layout_toEndOf="@+id/printMsg"
+        android:onClick="onScanClick" />
 
 </RelativeLayout>
