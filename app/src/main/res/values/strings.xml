@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyBluetooth</string>
+    <string name="deviceAddress">Device Address</string>
+    <string name="deviceName">Device Name</string>
+</resources>

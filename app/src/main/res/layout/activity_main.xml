@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.learning.novoinvent.mybluetooth.MainActivity">
+
+    <ListView
+        android:id="@+id/list_row"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:nestedScrollingEnabled="false"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/printMsg"
+        android:layout_below="@+id/list_row"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/printMsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/etvSend" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/btnSend"
+        android:layout_below="@+id/etvSend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+</RelativeLayout>
